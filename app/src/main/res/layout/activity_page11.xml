@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1c1a1a"
+    android:orientation="vertical"
+    tools:context=".page11">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_20sdp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/btnback11"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/arrow" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Workout"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_21sdp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_20sdp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_80sdp"
+                    android:background="@drawable/workoutbg1"
+                    android:paddingLeft="@dimen/_15sdp"
+                    android:paddingTop="@dimen/_15sdp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quads &amp; Deltoids"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_17sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_25sdp"
+                        android:text="7 Exerciese completed"
+                        android:textColor="#8F8585"
+                        android:textSize="@dimen/_12sdp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_marginTop="@dimen/_13sdp"
+                    android:background="@drawable/workoutbg2"
+                    android:paddingLeft="@dimen/_15sdp"
+                    android:paddingTop="@dimen/_15sdp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="push up Routing"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_17sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_25sdp"
+                        android:text="12 Exerciese completed"
+                        android:textColor="#8F8585"
+                        android:textSize="@dimen/_12sdp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_marginTop="@dimen/_13sdp"
+                    android:background="@drawable/workoutbg3"
+                    android:paddingLeft="@dimen/_15sdp"
+                    android:paddingTop="@dimen/_15sdp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Slide Planks"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_17sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_25sdp"
+                        android:text="12 Exerciese completed"
+                        android:textColor="#8F8585"
+                        android:textSize="@dimen/_12sdp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_marginTop="@dimen/_13sdp"
+                    android:background="@drawable/workoutbg4"
+                    android:paddingLeft="@dimen/_15sdp"
+                    android:paddingTop="@dimen/_15sdp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="situps"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_17sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_25sdp"
+                        android:text="13 Exerciese completed"
+                        android:textColor="#8F8585"
+                        android:textSize="@dimen/_12sdp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/quads"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_marginTop="@dimen/_13sdp"
+                    android:background="@drawable/workoutbg5"
+                    android:paddingLeft="@dimen/_15sdp"
+                    android:paddingTop="@dimen/_15sdp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quads &amp; Deltoids"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_17sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_25sdp"
+                        android:text="7 Exerciese completed"
+                        android:textColor="#8F8585"
+                        android:textSize="@dimen/_12sdp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_marginTop="@dimen/_13sdp"
+                    android:layout_marginBottom="@dimen/_105sdp"
+                    android:background="@drawable/workoutbg6"
+                    android:paddingLeft="@dimen/_15sdp"
+                    android:paddingTop="@dimen/_15sdp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quads &amp; Deltoids"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_17sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_25sdp"
+                        android:text="7 Exerciese completed"
+                        android:textColor="#8F8585"
+                        android:textSize="@dimen/_12sdp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:background="@drawable/editbutton"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_430sdp"
+            android:backgroundTint="#ffffff"
+            android:paddingLeft="@dimen/_15sdp">
+
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/page74home"
+                android:backgroundTint="#908686" />
+
+            <ImageView
+                android:layout_width="@dimen/_22sdp"
+                android:layout_height="@dimen/_22sdp"
+                android:layout_gravity="center"
+                android:backgroundTint="#E52962"
+                android:layout_marginLeft="@dimen/_80sdp"
+                android:background="@drawable/page75barbell" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_8sdp"
+                android:text="Workout"
+                android:textColor="#000000"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/setting"
+                android:layout_width="@dimen/_22sdp"
+                android:layout_height="@dimen/_22sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_45sdp"
+                android:background="@drawable/page76Gear" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

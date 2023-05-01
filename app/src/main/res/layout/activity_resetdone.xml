@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".resetdone">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_360sdp"
+        android:layout_marginTop="@dimen/_220sdp"
+        app:cardCornerRadius="@dimen/_25sdp"
+        android:backgroundTint="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/notebook6"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Password Has \nBeen Reset "
+                android:layout_marginTop="@dimen/_15sdp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_21sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your’ll shortly receive an email with a \n code to setup a new password"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textColor="#8F8585"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/btnnext"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_100sdp"
+                android:layout_marginRight="@dimen/_100sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/buttoncolour"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Done"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
